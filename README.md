@@ -1,109 +1,27 @@
-# jogo-aeds-1 - Repositório base para o TP de AEDS 1 / 2022.2
+# MINHOCA
 
-## Sobre este repositório
+## Sobre 
 
-Para começar a desenvolver o seu trabalho, clone este repositório. Ele vem com
-todas as configurações de debug e compilação para Windows e para Linux
-configuradas e testadas, para que você possa focar em desenvolver o jogo.
+O jogo consiste em uma cobra que será movimentada pelo jogador em uma tela
+limitada (600x350) 2d. O seu objetivo é coletar quantas maçãs conseguir sem esbarrar
+nos limites da tela ou em si mesma. A cada coleta, a cobra cresce um segmento e,
+também, é contado um ponto para o jogador ( esse ponto é mostrado na tela e
+atualizado a cada recolhimento da maçã ) que, caso seu ponto ultrapassar algum dos 5
+primeiros lugares do ranking, o seu nome entra na lista. É possível ver o ranking ao
+escolher essa opção na tela de menu iniciar, onde também é possível começar o jogo.
+Logo após, será então pedido a escolha da dificuldade na qual o jogador jogará, em
+que cada nível de dificuldade a velocidade será maior ou menor, dependendo da
+escolha. Por fim, será pedido seu apelido para o registro da informação de seus
+pontos.
+Bom jogo
 
-## Como usar?
 
-Primeiro, certifique-se de instalar **Git**. Os comandos para instalar estão
-disponíveis abaixo, dependendo do seu Sistema Operacional.
-
-<details>
-<summary><b>🐧 Para Debian/Ubuntu/Pop_OS!/ElementaryOS</b></summary>
-
-```sh
-$ sudo apt install git
-```
-
-</details>
-
-<details>
-<summary><b>🐧 Para ArchLinux</b></summary>
-
-```sh
-$ sudo pacman -S git
-```
-
-</details>
-
-<details>
-<summary><b>🪟 Para Windows</b></summary>
-
-Para Windows 10 (acima da versão 1809) e Windows 11, rode o seguinte comando no
-seu PowerShell:
-
-```pwsh
-PS> winget install Git.Git
-```
-
-Para versões do Windows mais antigas (10 < 1809, 8.1, 8, 7, Vista, XP, Etc.),
-[baixe o instalador aqui](https://git-scm.com/download/win).
-
-**⚠️ Importante**: Após instalar o Git, feche e abra a linha de comando que você
-usou
-
-</details>
-
-<br/>
-
-Com o **Git** instalado, escolha uma pasta qualquer no seu computador, entre
-nela com o seu terminal e rode os seguintes comandos para clonar este
-repositório:
-
-```sh
-$ git clone --recursive https://github.com/syndelis/jogo-aeds-1 tp-aeds1
-$ cd tp-aeds1
-```
-
-Esse comando criará uma pasta chamada **`tp-aeds1`** com todo o conteúdo deste
-repositório. A partir daí, basta alterar os arquivos dentro de **`src/`** para
-desenvolver o seu jogo!
-
-## Compilando o seu jogo
-
-Primeiro, instale as dependências [detalhadas aqui](https://github.com/Syndelis/jogo.h#instalando-as-depend%C3%AAncias-).
-
-Após instaladas, rode o comando de compilação, dependendo do seu Sistema
-Operacional:
-
-<details>
-<summary><b>🐧 Para Linux</b></summary>
-
-```sh
-$ make
-```
-
-</details>
-
-<details>
-<summary><b>🪟 Para Windows</b></summary>
-
-```pwsh
-PS> .\compilar.ps1
-```
-
-**⚠️ Atenção**: Pode ser que o comando acima falhe porque "a execução de
-scripts foi desabilitada neste sistema". Caso ocorra com você, abra um
-PowerShell como administrador e rode o seguinte comando
-**e reinicie seu computador**:
-
-```pwsh
-PS> Set-ExecutionPolicy Unrestricted
-```
-
-</details>
-
-## Documentação
-
-A documentação detalhando como usar a biblioteca de desenvolvimento de jogos
-**`jogo.h`** [está disponível aqui](https://syndelis.github.io/jogo.h).
-
-## Dúvidas
-
-**Alunos da disciplina**: Se tiverem qualquer dúvida, contatem a mim (Brenno) ou
-ao professor.
+## Teclas importantes.
+  
+Para sair do jogo: aperte ESC.
+Para começar o jogo ou entrar no rank: aperte ENTER.
+Para escolher a dificuldade: aperte ESPAÇO.
+Para voltar a uma decisão: aperte S.
+Para mover a cobra: utilize as setas CIMA, ESQUERDA, BAIXO, DIREITA.
 
 **Não alunos**: Abra uma *Issue* no [repositório da bibliotca](https://github.com/syndelis/jogo.h).
