@@ -18,10 +18,10 @@ Bom jogo
 
 ## Teclas importantes.
   
-Para sair do jogo: aperte ESC.
-Para começar o jogo ou entrar no rank: aperte ENTER.
-Para escolher a dificuldade: aperte ESPAÇO.
-Para voltar a uma decisão: aperte S.
-Para mover a cobra: utilize as setas CIMA, ESQUERDA, BAIXO, DIREITA.
+Para sair do jogo: aperte ESC.\n
+Para começar o jogo ou entrar no rank: aperte ENTER.\n
+Para escolher a dificuldade: aperte ESPAÇO.\n
+Para voltar a uma decisão: aperte S.\n
+Para mover a cobra: utilize as setas CIMA, ESQUERDA, BAIXO, DIREITA.\n
 
 **Não alunos**: Abra uma *Issue* no [repositório da bibliotca](https://github.com/syndelis/jogo.h).
