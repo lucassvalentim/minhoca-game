@@ -12,7 +12,7 @@
 int main() {
 
     abre_janela(640, 480);
-    //variaveis da cobra
+    //Variaveis Da Cobra
     Cobra* snake = (Cobra*)malloc(sizeof(Cobra));
     snake->coordenadas = criar_coordenada(330, 180);
     snake->parametros.tela = 1;
